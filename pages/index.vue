@@ -1,7 +1,8 @@
 <template>
   <div class="container">
     <div>
-      <Logo />
+      <p>muniraj</p>
+      <!-- <Logo />
       <h1 class="title">portfolio</h1>
       <div class="links">
         <a
@@ -20,13 +21,31 @@
         >
           GitHub
         </a>
-      </div>
+      </div> -->
     </div>
   </div>
 </template>
 
 <script>
-export default {}
+// import firebase from 'firebase'
+// const app = firebase.initializeApp({
+//   apiKey: 'AIzaSyA_ZBl5v6wVrXD8Tgxqvh2eq0FiAe2Tta0',
+//   authDomain: 'myprofile-39e93.firebaseapp.com',
+//   databaseURL: 'https://myprofile-39e93-default-rtdb.firebaseio.com',
+//   projectId: 'myprofile-39e93',
+//   storageBucket: 'myprofile-39e93.appspot.com',
+//   messagingSenderId: '604787960666',
+//   appId: '1:604787960666:web:4461699d797cb3aa24e163',
+//   measurementId: 'G-XTVZKV2B8H',
+// })
+export default {
+  // name: '',
+  // data() {
+  //   return {
+  //     firebaseAcc: app,
+  //   }
+  // },
+}
 </script>
 
 <style>
@@ -39,7 +58,7 @@ export default {}
   text-align: center;
 }
 
-.title {
+/* .title {
   font-family: 'Quicksand', 'Source Sans Pro', -apple-system, BlinkMacSystemFont,
     'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
   display: block;
@@ -59,5 +78,5 @@ export default {}
 
 .links {
   padding-top: 15px;
-}
+} */
 </style>

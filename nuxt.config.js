@@ -42,6 +42,8 @@ export default {
     target: 'static'
   },
   generate: {
-    fallback: true
+    fallback: '404.html',
+    dir: 'my-site',
+    subFolders: false
   }
 }
